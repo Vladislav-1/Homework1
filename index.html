@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ДОМАШНЕЕ ЗАДАНИЕ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -12,14 +13,232 @@
     <header class="header-top">
         <section class="header-top__box-text">
             <div class="box-text__title-text-button">
+                <h1 class="box-text__title">
+                    Добро пожаловать<br>на мой сайт мини-игр
+                </h1>
+                <p class="box-text__text">
+                    Тебе предстоит пройти несколько увлекательных игр.<br>Если готов, нажимай <span class="FW600">«Поехали!»</span> и <span class="FW600">приступай</span>.
+                </p>
+                <a class="anchors" href="#anchor-about-games"><button class="box-text__button">
+                    Поехали!
+                </button></a>
+            </div>
+            <img class="box-text__big-star" src="images/star.png" alt="big-star">
+            <img class="box-text__star1" src="images/star1.svg" alt="star 1">
+            <img class="box-text__star2" src="images/star2.svg" alt="star 2">
+            <img class="box-text__star3" src="images/star3.svg" alt="star 3">
+            <img class="box-text__star4" src="images/star4.svg" alt="star 4">
+        </section>
+        <marquee class="header-top__running-line" behavior="scroll" direction="left"><img src="images/running-line.png" alt="running-line"></marquee>
+    </header>
+    <a name="anchor-about-games"></a>
+    <main class="main">
+        <section class="about-games">
+            <div class="about-games__box">
+                <div class="ag-box__top-item">
+                    <h2 class="ag-box__title">
+                        Об играх
+                    </h2>
+                    <p class="ag-box__text">
+                        В моей коллекции представлено 6 игр на разные темы.<br>Игры несложные — в них может поиграть каждый.<br>
+Все игры доступны для пользования.
+                    </p>
+                </div>
+                <div class="ag-box__bottom-item">
+                    <div class="ag-box__article-box">
+                        <article class="article__box guess-number">
+                            <img class="article__img" src="images/guess-number.png" alt="Угадай число">
+                            <div class="container__text-title">
+                                <button class="article__button">
+                                    Игра № 1
+                                </button>
+                                <h3 class="article__title">
+                                    Угадай число
+                                </h3>
+                            </div>
+                        </article>
+                        <article class="article__box rock-scissors-paper">
+                            <img class="article__img" src="images/rock-scissors-paper.png" alt="Камень, ножницы, бумага">
+                            <div class="container__text-title">
+                                <button class="article__button">
+                                    Игра № 4
+                                </button>
+                                <h3 class="article__title">
+                                    Камень, ножницы,<br>бумага
+                                </h3>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="ag-box__article-box">
+                        <article class="article__box simple-arithmetic">
+                            <img class="article__img" src="images/simple-arithmetic.png" alt="Простая арифметика">
+                            <div class="container__text-title">
+                                <button class="article__button">
+                                    Игра № 2
+                                </button>
+                                <h3 class="article__title">
+                                    Простая арифметика
+                                </h3>
+                            </div>
+                        </article>
+                        <article class="article__box simple-quiz">
+                            <img class="article__img" src="images/simple-quiz.png" alt="Простая викторина">
+                            <div class="container__text-title">
+                                <button class="article__button">
+                                    Игра № 5
+                                </button>
+                                <h3 class="article__title">
+                                    Простая викторина
+                                </h3>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="ag-box__article-box">
+                        <article class="article__box turn-text-over">
+                            <img class="article__img" src="images/turn-text-over.png" alt="Переверни текст">
+                            <div class="container__text-title">
+                                <button class="article__button">
+                                    Игра № 3
+                                </button>
+                                <h3 class="article__title">
+                                    Переверни текст
+                                </h3>
+                            </div>
+                        </article>
+                        <article class="article__box random-color-generator">
+                            <img class="article__img" src="images/random-color-generator.png" alt="Генератор случайных цветов">
+                            <div class="container__text-title">
+                                <button class="article__button">
+                                    Игра № 6
+                                </button>
+                                <h3 class="article__title">
+                                    Генератор случайных цветов
+                                </h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
 
             </div>
-            <img src="images/star.png" alt="big-star">
+            <img class="about-games__star5" src="images/star5.png" alt="star 5">
+            <img class="about-games__star6" src="images/star6.png" alt="star 6">
+            <img class="about-games__star7" src="images/star7.png" alt="star 7">
         </section>
-        <div class="header-top__running-line">
-
-        </div>
-    </header>
+        <section class="mini-games">
+            <div class="mini-games__box">
+                <h2 class="mini-games__title">
+                    Мини-игры
+                </h2>
+                <div class="mini-games__container">
+                    <article class="container__article">
+                        <div class="article__option">
+                            <div class="option__box">
+                                <h3 class="option__title">
+                                    Угадай число
+                                </h3>
+                                <p class="option__text">
+                                    Попробуй угадать случайное<br>число от 1 до 100.
+                                </p>
+                            </div>
+                            <button class="option__button">
+                                Играть!
+                            </button>
+                        </div>
+                        <img class="article__img-big" src="images/guess-number-big.png" alt="Угадай число">
+                    </article>
+                    <article class="container__article">
+                        <img class="article__img-big" src="images/simple-arithmetic-big.png" alt="Простая арифметика">
+                        <div class="article__option">
+                            <div class="option__box">
+                                <h3 class="option__title">
+                                    Простая арифметика
+                                </h3>
+                                <p class="option__text">
+                                    Попробуй решить простые арифметические задачи.
+                                </p>
+                            </div>
+                            <button class="option__button">
+                                Играть!
+                            </button>
+                        </div>
+                    </article>
+                    <article class="container__article">
+                        <div class="article__option">
+                            <div class="option__box">
+                                <h3 class="option__title">
+                                    Переверни текст
+                                </h3>
+                                <p class="option__text">
+                                    Попробуй ввести текст, который<br>будет перевернут.
+                                </p>
+                            </div>
+                            <button class="option__button">
+                                Играть!
+                            </button>
+                        </div>
+                        <img class="article__img-big" src="images/turn-text-over-big.png" alt="Переверни текст">
+                    </article>
+                    <article class="container__article order-reverse">
+                        <img class="article__img-big" src="images/simple-quiz-big.png" alt="Простая викторина">
+                        <div class="article__option">
+                            <div class="option__box">
+                                <h3 class="option__title">
+                                    Викторина
+                                </h3>
+                                <p class="option__text">
+                                    Отвечай на вопросы викторины<br>с вариантами ответов.
+                                </p>
+                            </div>
+                            <button class="option__button">
+                                Играть!
+                            </button>
+                        </div>
+                    </article>
+                    <article class="container__article">
+                        <div class="article__option">
+                            <div class="option__box">
+                                <h3 class="option__title">
+                                    Камень,<br>ножницы,<br>бумага
+                                </h3>
+                                <p class="option__text">
+                                    Сыграй в популярную игру<br>против компьютера.
+                                </p>
+                            </div>
+                            <button class="option__button">
+                                Играть!
+                            </button>
+                        </div>
+                        <img class="article__img-big" src="images/rock-scissors-paper-big.png" alt="Камень, ножницы, бумага">
+                    </article>
+                    <article class="container__article">
+                        <img class="article__img-big" src="images/random-color-generator-big.png" alt="Генератор случайных цветов">
+                        <div class="article__option">
+                            <div class="option__box">
+                                <h3 class="option__title">
+                                    Генератор<br>случайных<br>цветов
+                                </h3>
+                                <p class="option__text">
+                                    Игра, в которой при клике на кнопку<br>фон страницы меняется на случайный.
+                                </p>
+                                <button class="option__button">
+                                    Играть!
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <img class="mini-games__star8" src="images/star8.png" alt="star 8">
+                <img class="mini-games__star9" src="images/star9.png" alt="star 9">
+                <img class="mini-games__star10" src="images/star10.png" alt="star 10">
+                <img class="mini-games__star11" src="images/star11.png" alt="star 11">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__title">
+            Все права защищены.
+        </h2>
+    </footer>
 </body>
 
 </html>
