@@ -1,1 +1,170 @@
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+    body {
+        background: rgb(225, 255, 143);
+    }
+
+    .header-top {
+        width: 100%;
+        height: 700px;
+        background: rgb(225, 255, 143);
+        padding-left: calc(50% - 188px);
+        padding-right: calc(50% - 188px);
+        overflow: hidden;
+        position: relative;
+
+        &__box-text {
+            width: 376px;
+            height: 648.66px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title-text-button {
+            display: none;
+        }
+
+        &__title-text-button-mobile {
+            height: 420px;
+            width: 343px;
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+            align-items: center;
+            z-index: 10;
+            margin-top: 147px;
+        }
+
+        &__container-mini {
+            width: 296px;
+            height: 329px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        &__title {
+            color: rgb(32, 32, 39);
+            font-family: Montserrat;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            width: 262px;
+            height: 245px;
+            text-align: center;
+        }
+
+        &__text {
+            color: rgb(32, 32, 39);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            width: 296px;
+            height: 60px;
+            margin-top: 0px;
+            text-align: center;
+        }
+
+        &__button {
+            width: 285px;
+            height: 55px;
+            box-sizing: border-box;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            background: rgb(32, 32, 39);
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+            margin-top: 0px;
+        }
+
+        &__big-star {
+            display: none;
+        }
+
+        &__star1 {
+            display: none;
+        }
+
+        &__star2 {
+            display: none;
+        }
+
+        &__star3 {
+            display: none;
+        }
+
+        &__star4 {
+            display: none;
+        }
+
+        &__big-star_mobile {
+            display: block;
+            position: absolute;
+            top: -85.43px;
+            left: 215.81px;
+            transform: rotate(-01.0deg);
+            z-index: 20;
+        }
+
+        &__star12 {
+            display: block;
+            position: absolute;
+            width: 21px;
+            height: 21px;
+            left: 92px;
+            top: 64px;
+        }
+
+        &__star13 {
+            display: block;
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 38px;
+            top: 97px;
+        }
+
+        &__star14 {
+            display: block;
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            left: 273px;
+            top: 557px;
+            z-index: 100;
+        }
+
+        &__star15 {
+            display: block;
+            position: absolute;
+            width: 39px;
+            height: 41px;
+            left: 304px;
+            top: 580px;
+        }
+
+        .running-line {
+            height: 51.34px;
+
+        }
+    }
+
+    .about-games {
+        display: none;
+    }
+
+    .mini-games {
+        display: none;
+    }
+
+    .footer {
+        height: 100px;
+        width: 100%;
+    }
+}
