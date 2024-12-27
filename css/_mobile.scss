@@ -4,6 +4,7 @@
         background: rgb(225, 255, 143);
     }
 
+    /* -- HEADER -- */
     .header-top {
         width: 100%;
         height: 700px;
@@ -83,6 +84,11 @@
             margin-top: 0px;
         }
 
+        &__button:hover {
+            background: rgb(32, 32, 39);
+            color: rgb(255, 255, 255);
+        }
+
         &__big-star {
             display: none;
         }
@@ -159,10 +165,113 @@
         display: none;
     }
 
+    /* -- БЛОК МИНИ-ИГР -- */
     .mini-games {
-        display: none;
+        display: flex;
+        width: 100%;
+        height: 3780.66px;
+        padding-bottom: 48.92px;
+        padding-top: 48.34px;
+        padding-left: calc(50% - 188px);
+        padding-right: calc(50% - 188px);
+
+        &__big-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title {
+            font-size: 40px;
+            line-height: 49px;
+            margin-left: 16px;
+        }
+
+        &__container {
+            width: 343px;
+            padding-left: calc(50% - 188px);
+            padding-right: calc(50% - 188px);
+            margin-top: 48px;
+        }
+
+        &__article {
+            width: 343px;
+            height: auto;
+            flex-direction: column;
+
+        }
+
+        &__img-big {
+            display: none;
+        }
+
+        &__img_mobile {
+            display: block;
+            width: 343px;
+            height: 284.93px;
+            border-radius: 30px;
+        }
+
+        &__option {
+            width: 343px;
+            height: auto;
+            margin-top: 0px;
+            margin-left: 0px;
+            padding: 29.04px 29.04px 32.67px;
+        }
+
+        &__box {
+            width: 284.93px;
+        }
+
+        &__subtitle {
+            font-size: 32px;
+            line-height: 39px;
+            width: 284.93px;
+        }
+
+        &__text {
+            display: none;
+        }
+
+        &__text_mobile {
+            display: block;
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: 16px;
+            font-family: Montserrat;
+        }
+
+        &__button {
+            width: 285px;
+            height: 55px;
+            margin-top: 32px;
+        }
+
+        &__button:hover {
+            background: rgb(32, 32, 39);
+            color: rgb(255, 255, 255);
+        }
+
+        &__star8 {
+            display: none;
+        }
+
+        &__star9 {
+            display: none;
+        }
+
+        &__star10 {
+            display: none;
+        }
+
+        &__star11 {
+            display: none;
+        }
     }
 
+
+    /* -- FOOTER -- */
     .footer {
         height: 100px;
         width: 100%;
