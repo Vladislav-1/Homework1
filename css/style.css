@@ -445,13 +445,13 @@ html {
     width: 100%;
     height: 700px;
     background: rgb(225, 255, 143);
-    padding-left: calc(50% - 188px);
-    padding-right: calc(50% - 188px);
+    /* padding-left: calc(50% - 188px);
+    padding-right: calc(50% - 188px); */
     overflow: hidden;
     position: relative;
   }
   .header-top__box-text {
-    width: 376px;
+    width: 100%;
     height: 648.66px;
     display: flex;
     flex-direction: column;
@@ -536,7 +536,7 @@ html {
     display: block;
     position: absolute;
     top: -85.43px;
-    left: 215.81px;
+    right: -88px;
     transform: rotate(-1deg);
     z-index: 20;
   }
